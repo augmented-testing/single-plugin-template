@@ -1,5 +1,7 @@
 # Template for Scout Plugins
 
+[![Plugins](https://github.com/augmented-testing/single-plugin-template/actions/workflows/plugins.yml/badge.svg)](https://github.com/augmented-testing/single-plugin-template/actions/workflows/plugins.yml)
+
 ## Introduction
 
 Scout is a tool using a novel approach we call Augmented Testing (AT) to simplify Visual GUI Testing (VGT).
