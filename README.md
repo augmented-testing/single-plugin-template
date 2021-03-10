@@ -42,7 +42,7 @@ You can find more information about how to manage Java projects in VSCode follow
 
 If you use IntelliJ we recommend you to use the [Makefile Language](https://plugins.jetbrains.com/plugin/9333-makefile-language) extension to use the already defined build and run tasks. See the screenshot.
 
-![IntelliJ Run Config](docs/intellij-run-config.png)
+![IntelliJ Run Config](intellij-run-config.png)
 
 ## License
 
