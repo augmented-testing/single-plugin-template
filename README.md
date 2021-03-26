@@ -49,9 +49,9 @@ If you use IntelliJ we recommend you to use the [Makefile Language](https://plug
 
 ## License
 
-Copyright (c) 2021 [TBA]
+Copyright (c) 2021 Andreas Bauer
 
-This work (source code) is licensed under [???].
+This work (source code) is licensed under [MIT](./LICENSES/MIT.txt).
 
 Files other than source code are licensed as follows:
 
