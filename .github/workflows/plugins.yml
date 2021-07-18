@@ -2,7 +2,7 @@ name: Plugins
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, dev ]
   pull_request:
     branches: [ main ]
   workflow_dispatch:
@@ -12,7 +12,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        jdk: [8, 11, 14]
+        jdk: [8, 11, 16]
     env:
       JDK_VERSION:  ${{ matrix.jdk }}
     runs-on: ubuntu-latest
@@ -23,5 +23,13 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: ${{ matrix.jdk }}
+    - name: Cache Maven packages
+      uses: actions/cache@v2
+      with:
+        path: ~/.m2
+        key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
+        restore-keys: ${{ runner.os }}-m2
     - name: Build
-      run: make build
+      run: mvn compile
+    - name: Test
+      run: mvn test

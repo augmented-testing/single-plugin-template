@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: 2020 Andreas Bauer
+// SPDX-FileCopyrightText: 2021 Andreas Bauer
 //
 // SPDX-License-Identifier: MIT
 
