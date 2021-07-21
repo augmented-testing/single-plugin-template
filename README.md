@@ -10,6 +10,8 @@ This repository serves as a template to develop a plugin for Scout without the c
 
 The main repository for Scout can be found [here](https://github.com/augmented-testing/scout).
 
+A previous version of this template repository that uses a Makefile as a build system is tagged as [makefile](https://github.com/augmented-testing/single-plugin-template/releases/tag/makefile). The Makefile setup is helpful if you have a tiny plugin and want to avoid having Maven as a dependency.
+
 ## Requirements
 
 Scout is developed in Java and therefore requires the Java Runtime Environment (JRE).
